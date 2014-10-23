@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6246" systemVersion="14A361c" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6239"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="441-D1-FMj">
+            <objects>
+                <viewController id="PKt-JF-US2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QnO-Do-8d8"/>
+                        <viewControllerLayoutGuide type="bottom" id="btU-sf-y3V"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sLm-Hg-ncf">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Make points DOUBLE !!! Share it !!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iCz-lx-0xZ">
+                                <rect key="frame" x="20" y="596" width="984" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtL-ob-JEI">
+                                <rect key="frame" x="60" y="629" width="274" height="88"/>
+                                <state key="normal" title="Facebook">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWP-M7-3eG">
+                                <rect key="frame" x="690" y="629" width="274" height="88"/>
+                                <state key="normal" title="Tweter">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+175" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4gu-0S-ihA">
+                                <rect key="frame" x="361" y="12" width="303" height="96"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="83"/>
+                                <color key="textColor" red="0.10588236149999999" green="0.75294125079999996" blue="0.082352943720000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="2" height="-1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fLr-86-jeD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1219" y="-1516"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GfZ-yj-LSs">
+                                <rect key="frame" x="0.0" y="110" width="1024" height="576"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="celownik.png" translatesAutoresizingMaskIntoConstraints="NO" id="exv-rA-ejF">
+                                <rect key="frame" x="11" y="116" width="1002" height="564"/>
+                            </imageView>
+                            <view alpha="0.74999999999999978" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vGt-hx-tKf" userLabel="topView" propertyAccessControl="none">
+                                <rect key="frame" x="-2" y="0.0" width="1031" height="112"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Marcin Niedźwiecki" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKf-AI-bBJ">
+                                        <rect key="frame" x="5" y="89" width="125" height="23"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="02:17" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lwW-GN-k8M">
+                                        <rect key="frame" x="864" y="16" width="142" height="49"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="34"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0012 /" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HJf-zM-fhk">
+                                        <rect key="frame" x="864" y="61" width="78" height="49"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6523" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDM-qM-6w8">
+                                        <rect key="frame" x="933" y="61" width="71" height="49"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                        <color key="textColor" red="0.10588236149999999" green="0.75294125079999996" blue="0.082352943720000002" alpha="1" colorSpace="deviceRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arfixer logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="dN0-Qc-pme">
+                                        <rect key="frame" x="307" y="36" width="40" height="40"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arfixer logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="cw5-qK-Kd0">
+                                        <rect key="frame" x="360" y="36" width="40" height="40"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arfixer logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="uMm-o2-wVn">
+                                        <rect key="frame" x="413" y="36" width="40" height="40"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arfixer logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="yEh-gD-J2E">
+                                        <rect key="frame" x="466" y="36" width="40" height="40"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arfixer logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="hhQ-bR-6Ny">
+                                        <rect key="frame" x="524" y="36" width="40" height="40"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arfixer logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jvt-sv-ZvM">
+                                        <rect key="frame" x="577" y="36" width="40" height="40"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arfixer logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="rRr-Mf-VA1">
+                                        <rect key="frame" x="630" y="36" width="40" height="40"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arfixer logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="bD3-ow-Df8">
+                                        <rect key="frame" x="683" y="36" width="40" height="40"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arfixer logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="P7s-pA-8hg">
+                                        <rect key="frame" x="867" y="13" width="146" height="85"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view alpha="0.74999999999999978" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hGP-WY-azS" userLabel="bottomView">
+                                <rect key="frame" x="-2" y="684" width="1028" height="84"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FOCUS ON TV &amp; TAP SCREEN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b0R-d3-47w">
+                                        <rect key="frame" x="171" y="16" width="682" height="62"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="46"/>
+                                        <color key="textColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="usW-cy-5iN">
+                                        <rect key="frame" x="982" y="36" width="22" height="22"/>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showTutorial:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0df-mg-ciz"/>
+                                        </connections>
+                                    </button>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uzp-uv-xI9">
+                                        <rect key="frame" x="20" y="76" width="988" height="2"/>
+                                    </progressView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="bottomLabel" destination="b0R-d3-47w" id="bB4-BY-cfT"/>
+                        <outlet property="bottomView" destination="hGP-WY-azS" id="j8d-FE-wBP"/>
+                        <outlet property="canal0" destination="dN0-Qc-pme" id="oEc-9Z-yuG"/>
+                        <outlet property="canal1" destination="cw5-qK-Kd0" id="ooe-iG-BQs"/>
+                        <outlet property="canal2" destination="uMm-o2-wVn" id="Kyk-Ju-0cl"/>
+                        <outlet property="canal3" destination="yEh-gD-J2E" id="vlu-XO-H10"/>
+                        <outlet property="canal4" destination="hhQ-bR-6Ny" id="7Ve-dw-pdB"/>
+                        <outlet property="canal5" destination="Jvt-sv-ZvM" id="B8e-0p-02j"/>
+                        <outlet property="canal6" destination="rRr-Mf-VA1" id="esd-ms-FkH"/>
+                        <outlet property="canal7" destination="bD3-ow-Df8" id="iUh-dA-Vbu"/>
+                        <outlet property="celownik" destination="exv-rA-ejF" id="tUB-6e-1et"/>
+                        <outlet property="imageView" destination="GfZ-yj-LSs" id="A5D-AU-i4F"/>
+                        <outlet property="progressView" destination="Uzp-uv-xI9" id="FGL-M7-ntS"/>
+                        <outlet property="timerToNextScan" destination="lwW-GN-k8M" id="RhH-io-WoN"/>
+                        <outlet property="topView" destination="vGt-hx-tKf" id="aH4-dr-ZaQ"/>
+                        <outlet property="userName" destination="aKf-AI-bBJ" id="JsZ-Ht-9tV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1104" y="-614"/>
+        </scene>
+        <!--Tutorial Content View Controller-->
+        <scene sceneID="ajO-cD-Ytb">
+            <objects>
+                <viewController storyboardIdentifier="TutorialContentViewController" id="zvp-wZ-SuJ" customClass="TutorialContentViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NSX-Np-mN0"/>
+                        <viewControllerLayoutGuide type="bottom" id="5Ub-MB-rkR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="w9j-Qc-kcT">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qx8-gh-PHE">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E1T-kX-zhU">
+                                <rect key="frame" x="485" y="75" width="80" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GOb-rP-86g">
+                                <rect key="frame" x="771" y="684" width="233" height="73"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Hide Tutorial">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeTutorial:" destination="zvp-wZ-SuJ" eventType="touchUpInside" id="0Dq-uX-hKe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="Qx8-gh-PHE" id="Wa9-7X-LHR"/>
+                        <outlet property="titleLabel" destination="E1T-kX-zhU" id="LIB-bX-fLs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tDN-N7-5HI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-51" y="-1504"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="Sxf-Ch-yix">
+            <objects>
+                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="nXM-o2-OLD" sceneMemberID="viewController">
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="modal" id="NjV-UG-JQ0"/>
+                    </connections>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hUT-VO-ZLz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-27" y="-623"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arfixer logo.png" width="2211" height="1306"/>
+        <image name="celownik.png" width="568" height="320"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

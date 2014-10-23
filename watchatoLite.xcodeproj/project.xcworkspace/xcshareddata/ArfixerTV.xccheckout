@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A53E88E4-153A-4E8C-A26B-77B87879CFA5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ArfixerTV</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FE75CD0D-2D7A-44C6-B5CF-31E04166E190</key>
+		<string>https://github.com/arfixer/ARcode.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VR-ios/ArfixerTV/ArfixerTV.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FE75CD0D-2D7A-44C6-B5CF-31E04166E190</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/arfixer/ARcode.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FE75CD0D-2D7A-44C6-B5CF-31E04166E190</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FE75CD0D-2D7A-44C6-B5CF-31E04166E190</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ARcode</string>
+		</dict>
+	</array>
+</dict>
+</plist>
